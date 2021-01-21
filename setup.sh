@@ -17,4 +17,6 @@ echo "Admin password"
 passwd openvpn
 
 
-echo "=========================DONE=============================="
+echo "do: "
+echo "sudo bash setup.sh"
+echo "again"
