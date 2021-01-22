@@ -12,7 +12,7 @@ wget https://cdn.discordapp.com/attachments/706345346963341393/80189952202008168
 cd /usr/local/openvpn_as/bin
 ./ovpn-init
 
-
+./ovpn-init
 echo "Admin password"
 
 passwd openvpn
