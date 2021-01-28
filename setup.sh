@@ -2,6 +2,7 @@
 
 clear
 yum update -y
+yum upgrade -y
 yum install net-tools -y
 yum install nano -y
 wget https://cdn.discordapp.com/attachments/706345346963341393/801899508064714802/openvpn-as-2.5-CentOS7.x86_64.rpm
@@ -18,6 +19,3 @@ echo "Admin password"
 passwd openvpn
 
 
-echo "do: "
-echo "sudo bash setup.sh"
-echo "again"
