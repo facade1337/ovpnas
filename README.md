@@ -5,7 +5,7 @@ How to initalize it on a completely new instance.
 ```
 sudo su
 cd ~
-yum install wget -y && wget https://raw.githubusercontent.com/PGBRULES/ovpnas/main/setup.sh && sudo bash setup.sh
+yum install wget -y && wget https://raw.githubusercontent.com/PGBRULES/ovpnas/updatedtest/setup.sh && sudo bash setup.sh
 cd /usr/local/openvpn_as/etc/
 sudo nano as.conf
 ```
