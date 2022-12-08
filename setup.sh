@@ -1,5 +1,4 @@
 #!/bin/bash
-
 clear
 yum update -y
 yum upgrade -y
@@ -12,10 +11,6 @@ rm pyovpn-2.0-py2.7.egg
 wget https://cdn.discordapp.com/attachments/706345346963341393/801899522020081684/pyovpn-2.0-py2.7.egg
 cd /usr/local/openvpn_as/bin
 ./ovpn-init
-
 ./ovpn-init
 echo "Admin password"
-
 passwd openvpn
-
-
